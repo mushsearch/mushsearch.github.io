@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>MushSearch Top</title>
+</head>
+<body>
+  <h1>MushSearch Top</h1>
+  <div class="input-container">
+    <textarea id="modo" placeholder="Insira o modo de jogo (ex: bedwars, skywars)"></textarea>
+    <div id="modo-status" class="modo-status"></div>
+    <div class="buttons-container">
+      <button id="btn">Buscar Top 100</button>
+      <button onclick="window.location.href='players.html'">Jogadores</button>
+    </div>
+  </div>
+
+  <div id="result" class="tops-container"></div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
